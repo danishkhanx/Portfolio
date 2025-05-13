@@ -45,7 +45,7 @@ export default function Hero() {
               className="text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight tracking-tighter"
             >
               <span className="block text-white">
-                I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-indigo-600">Danish</span>
+                I&apos;m <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-indigo-600">Danish</span>
               </span>
               <span className="block text-white mt-2">
                 Young <span className="relative">
