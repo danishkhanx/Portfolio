@@ -116,7 +116,6 @@ export default function Hero() {
                   {[
                     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
                     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
-                    "https://cdn.simpleicons.org/tailwindcss/06B6D4"
                   ].map((src, idx) => (
                     <div key={idx} className="w-8 h-8 rounded-full bg-zinc-800 flex items-center justify-center border border-zinc-700 shadow-md">
                       <Image src={src} alt="Tech skill" width={16} height={16} />
