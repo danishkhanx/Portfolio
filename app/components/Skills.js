@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 const skills = [
   { name: 'HTML', level: 90, icon: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' },
@@ -69,7 +70,7 @@ export default function Skills() {
               >
                 <div className="flex items-start mb-6">
                   <div className="rounded-lg p-2.5 bg-zinc-800/50 flex items-center justify-center mr-4">
-                    <img src={skill.icon} alt={skill.name} className="w-6 h-6" />
+                    <Image src={skill.icon} alt={skill.name} width={24} height={24} />
                   </div>
                   <div>
                     <h4 className="font-medium text-white">{skill.name}</h4>
@@ -112,7 +113,7 @@ export default function Skills() {
                 className="flex flex-col items-center"
               >
                 <div className="w-16 h-16 rounded-xl bg-zinc-800/70 flex items-center justify-center mb-3 backdrop-blur-sm">
-                  <img src={skill.icon} alt={skill.name} className="w-8 h-8" />
+                  <Image src={skill.icon} alt={skill.name} width={32} height={32} />
                 </div>
                 <span className="text-sm text-zinc-400">{skill.name}</span>
               </motion.div>

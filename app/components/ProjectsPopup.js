@@ -53,7 +53,7 @@ export default function ProjectsPopup({ isOpen, onClose }) {
                 </h3>
                 
                 <p className="text-zinc-400 mb-8">
-                  Check out my latest projects and contributions on GitHub. From web applications to coding experiments, discover what I've been working on!
+                  Check out my latest projects and contributions on GitHub. From web applications to coding experiments, discover what I&apos;ve been working on!
                 </p>
 
                 {/* GitHub button */}
