@@ -58,7 +58,7 @@ export default function ProjectsPopup({ isOpen, onClose }) {
 
                 {/* GitHub button */}
                 <a
-                  href="https://github.com/danishzx" 
+                  href="https://github.com/danishkhanx" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block w-full py-3 px-4 rounded-xl bg-gradient-to-r from-purple-600 to-indigo-600 text-white font-medium text-center transition-transform hover:scale-[1.02] active:scale-[0.98] group relative"
